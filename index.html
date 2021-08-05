@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abito</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://yoursite.ru/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <div class="menu__bar">
+                    <a class="menu__link" href="#">
+                        <img class="menu__logo" src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="menu__btn" type="button">
+                        <span></span>
+                        <span class="sr-only">open menu</span>
+                    </button>
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--active" href="#">
+                                Авто
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Недвижимость
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Работа
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Услуги
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <button class="nav__link nav__link--registrar" type="button">
+                        Вход и регистрация
+                    </button>
+                    <button class="nav__link nav__link--submit" type="button">
+                        Подать объявление
+                    </button>
+                </div>
+            </nav>
+
+            <form class="form">
+                <label class="sr-only" for="search-input">
+                    Поиск по объявлениям</label>
+                <input class="form__input" type="text" id="search-input" placeholder="Поиск по объявлениям" name="search" required>
+                <button class="form__search">
+                    Найти
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main class="maim">
+        <h1 class="sr-only">сайт для продаж вещей</h1>
+        <section class="recommendations">
+            <div class="container">
+                <div class="recommendations__inner">
+                    <div class="recommendations-card">
+                        <h2 class="recommendations__title">
+                            Рекомендации для вас
+                        </h2>
+                        <ul class="recommendations__list">
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href="product.html">
+                                        <img class="recommendations__img" src="images/recommendations/1.jpg" alt="Электросамокат">
+                                    </a>
+                                    <div class="recommendations__inner">
+
+                                        <a class="recommendatoons__link" href="product.html">
+                                            <h3 class="recommendations__subtitle">
+                                                Электросамокат
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984 6.89941 1.90636
+                                                6.54705 1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571 10.0784
+                                                3.70068 11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918 9.78848
+                                                12.478C11.2994 11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill=" #C4C4C4 " />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        10 980 <span>₽</span>
+                                    </p>
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+                                        <time class="recommendations__time" datetime="2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href="product.html">
+                                        <img class="recommendations__img" src=" images/recommendations/2.jpg" alt="материал">
+                                    </a>
+                                    <div class="recommendations__inner">
+                                        <a class="recommendatoons__link" href="product.html">
+                                            <h3 class="recommendations__subtitle">
+                                                Пвх материал 2й сорт
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984 6.89941 1.90636
+                                                6.54705 1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571 10.0784
+                                                3.70068 11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918 9.78848
+                                                12.478C11.2994 11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill=" #C4C4C4 " />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        170 <span>₽</span>
+                                    </p>
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+                                        <time class="recommendations__time" datetime="2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                        <!--тут возможно не правильная структура с описанием и отступ там лин хейдж-->
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href="product.html">
+                                        <img class="recommendations__img" src="images/recommendations/3.jpg" alt="Электросамокат">
+                                    </a>
+                                    <div class="recommendations__inner">
+                                        <a class="recommendatoons__link" href="product.html">
+                                            <h3 class="recommendations__subtitle ">
+                                                Двухсторонняя ветровка для мальчика
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984 6.89941 1.90636 6.54705
+                                                1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571 10.0784 3.70068
+                                                11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918 9.78848 12.478C11.2994
+                                                11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill=" #C4C4C4 " />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        2 110 <span>₽</span>
+                                    </p>
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+
+                                        <time class="recommendations__time" datetime="2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href="product.html">
+                                        <img class="recommendations__img" src=" images/recommendations/4.jpg" alt="Электросамокат">
+                                    </a>
+                                    <div class="recommendations__inner">
+                                        <a class="recommendations__link" href="product.html">
+                                            <h3 class="recommendations__subtitle">
+                                                Пеленальная доска на комод
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984
+                                                6.89941 1.90636 6.54705 1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571
+                                                10.0784 3.70068 11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918
+                                                9.78848 12.478C11.2994 11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill="#C4C4C4" />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        200 <span>₽</span>
+                                    </p>
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+                                        <time class="recommendations__time" datetime=" 2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href="product.html">
+                                        <img class="recommendations__img " src=" images/recommendations/5.jpg" alt="Участок 8 сот. (ИЖС)">
+                                    </a>
+                                    <div class="recommendations__inner">
+                                        <a class="recommendations__link" href="product.html">
+                                            <h3 class="recommendations__subtitle">
+                                                Участок 8 сот. (ИЖС)
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984 6.89941 1.90636 6.54705
+                                                1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571 10.0784 3.70068
+                                                11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918 9.78848 12.478C11.2994
+                                                11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill=" #C4C4C4 " />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        101 980 ₽ <span>₽</span>
+                                    </p>
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+                                        <time class="recommendations__time" datetime="2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="recommendations__item">
+                                <article class="recommendations__card product-card">
+                                    <a class="recommendations__link" href=" # ">
+                                        <img class="recommendations__img" src=" images/recommendations/6.jpg" alt="Ford Fusion, 2007">
+                                    </a>
+                                    <div class="recommendations__inner">
+                                        <a class="recommendations__link" href="product.html">
+                                            <h3 class="recommendations__subtitle">
+                                                Ford Fusion, 2007
+                                            </h3>
+                                        </a>
+                                        <svg class="recommendations__svg">
+                                            <path
+                                                d=" M13.81 2.12631C13.0336 1.28414 11.9681 0.820312 10.8097 0.820312C9.94389 0.820312 9.15092 1.09406 8.45284 1.63387C8.10059 1.90636 7.78141 2.23972 7.5 2.62882C7.2187 2.23984
+                                                6.89941 1.90636 6.54705 1.63387C5.84908 1.09406 5.05611 0.820312 4.19025 0.820312C3.03188 0.820312 1.96632 1.28414 1.18984 2.12631C0.42263 2.95864 0 4.09573 0 5.32825C0 6.59683 0.472755 7.75806 1.48773 8.98281C2.39571
+                                                10.0784 3.70068 11.1905 5.21187 12.4783C5.72788 12.9181 6.31279 13.4166 6.92013 13.9476C7.08057 14.0881 7.28645 14.1655 7.5 14.1655C7.71343 14.1655 7.91943 14.0881 8.07964 13.9478C8.68698 13.4167 9.27223 12.918
+                                                9.78848 12.478C11.2994 11.1904 12.6044 10.0784 13.5124 8.9827C14.5274 7.75806 15 6.59683 15 5.32814C15 4.09573 14.5774 2.95864 13.81 2.12631Z "
+                                                fill=" #C4C4C4 " />
+                                        </svg>
+                                        <span class="sr-only">favorites</span>
+                                    </div>
+                                    <p class="recommendations__price">
+                                        304 000 ₽ <span>₽</span>
+                                    </p>
+
+                                    <p class="recommendations__info">
+                                        Казань, р-н Вахитовский
+                                        <time class="recommendations__time" datetime=" 2021-07-23T19:11:39+03:00">
+                                            10 июля 11:39
+                                        </time>
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <aside class="services">
+                        <h2 class="services__title">
+                            Сервисы и услуги
+                        </h2>
+                        <ul class="services__list">
+                            <li class="services__item services__item--delivery">
+                                <h3 class="services__subtitle">
+                                    Доставка
+                                </h3>
+                                <div class="services__text">
+                                    <p>
+                                        Проверка при получении и возможность бесплатно вернуть товар
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="services__item services__item--sedan">
+                                <h3 class="services__subtitle">
+                                    Автотека
+                                </h3>
+
+                                <div class="services__text">
+                                    <p>
+                                        Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="services__item  services__item--booking">
+                                <h3 class="services__subtitle ">
+                                    Онлайн-бронирование жилья
+                                </h3>
+
+                                <div class="services__text">
+                                    <p>
+                                        Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="nav-bar">
+                            <div class="nav-bar__info">
+                                <span>
+                                    © ООО «Абито», 2011–2021
+                                </span>
+                                <span>
+                                    <a class="nav-bar__link  nav-bar__link--decoration" href="#">
+                                        Политика конфиденциальности
+                                    </a>
+                                </span>
+                                <span>
+                                    <a class="nav-bar__link nav-bar__link--decoration" href="#">
+                                        Обработка данных
+                                    </a>
+                                </span>
+                            </div>
+                            <ul class="nav-bar__links">
+                                <li class="nav-bar__item">
+                                    <a class="nav-bar__link" href="#">
+                                        Реклама на сайте
+                                    </a>
+                                </li>
+                                <li class="nav-bar__item">
+                                    <a class=" nav-bar__link" href="#">
+                                        Вакансии
+                                    </a>
+                                </li>
+                                <li class="nav-bar__item ">
+                                    <a class="nav-bar__link" href="#">
+                                        Помощь
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

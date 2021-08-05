@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://yoursite.ru/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <div class="menu__bar">
+                    <a class="menu__link" href="#">
+                        <img class="menu__logo" src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="menu__btn" type="button">
+                        <span></span>
+                        <span class="sr-only">open menu</span>
+                    </button>
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--active" href="#">
+                                Авто
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Недвижимость
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Работа
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                Услуги
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <button class="nav__link nav__link--registrar" type="button">
+                        Вход и регистрация
+                    </button>
+                    <button class="nav__link nav__link--submit" type="button">
+                        Подать объявление
+                    </button>
+                </div>
+
+            </nav>
+            <form class="form">
+                <label class="sr-only" for="search-input">
+                    Поиск по объявлениям
+                </label>
+                <input class="form__input" type="text" id="search-input" placeholder="Поиск по объявлениям" name="search" required>
+                <button class="form__search">
+                    Найти
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main class="maim">
+        <h1 class="sr-only">сайт для продаж вещей</h1>
+        <div class="container">
+            <div class="product-info">
+                <div class="product-slider">
+                    <!--можно оставить так а можно две других колонки сделать еще одиним иннером  или -90 маржин лефт-->
+                    <h2 class="product-slider__title">
+                        Электросамокат kugoo Gx
+                    </h2>
+                    <ul class="product-slider__big">
+                        <li class="product-slider__content">
+                            <img class="product-slider__images" src="images/product-cart-slider/1.jpg" alt="самокаты">
+                        </li>
+
+                        <li class="product-slider__content">
+                            <img class="product-slider__images" src="images/product-cart-slider/2.jpg" alt="самокат">
+                        </li>
+
+                        <li class="product-slider__content">
+                            <img class="product-slider__images" src="images/product-cart-slider/3.jpg" alt="самокат">
+                        </li>
+
+                        <li class="product-slider__content">
+                            <img class="product-slider__images" src="images/product-cart-slider/4.jpg" alt="самокат">
+                        </li>
+
+                        <li class="product-slider__content">
+                            <img class="product-slider__images" src="images/product-cart-slider/5.jpg" alt="самокат">
+                        </li>
+                    </ul>
+                    <ul class="product-slider__small">
+                        <li class="product-slider__item">
+                            <div class="product-slider__content">
+                                <img class="product-slider__img" src="images/product-cart-slider/1.jpg" alt="самокаты">
+                            </div>
+                        </li>
+                        <li class="product-slider__item">
+                            <div class="product-slider__content">
+                                <img class="product-slider__img" src="images/product-cart-slider/2.jpg" alt="самокат">
+                            </div>
+                        </li>
+                        <li class="product-slider__item">
+                            <div class="product-slider__content">
+                                <img class="product-slider__img" src="images/product-cart-slider/3.jpg" alt="самокат">
+                            </div>
+                        </li>
+                        <li class="product-slider__item">
+                            <div class="product-slider__content">
+                                <img class="product-slider__img" src="images/product-cart-slider/4.jpg" alt="самокат">
+                            </div>
+                        </li>
+                        <li class="product-slider__item">
+                            <div class="product-slider__content">
+                                <img class="product-slider__img" src="images/product-cart-slider/5.jpg" alt="самокат">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="product-slider__text">
+                        <p>
+                            Продаю не спеша самокат в хорошем состоянии.
+                        </p>
+                        <p>
+                            Торг возможен.
+                        </p>
+                        <p>
+                            За период эксплуатации не выявлено ни одной проблемы.
+                        </p>
+                        <p>
+                            Из минусов — нужно прокачать задний тормоз.
+                        </p>
+                        <p>
+                            Установлен отсекатель сзади.
+                        </p>
+                        <p>
+                            Покрышки CST внедорожные.
+                        </p>
+                        <p>
+                            Все на подшипниках, болты протянуты.
+                        </p>
+                        <p>
+                            Пробег 881км , это немного для такого зверя.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="seller">
+                    <span class="seller__price">75 000<span>₽</span></span>
+                    <div class="seller__info">
+                        <a class="seller__img seller-info" href="#" style="background-image: url('../images/seller-face/seller1.jpg')">
+                            <span class="sr-only">аватарка</span>
+                        </a>
+                        <a class="seller__name">Михаил Воробьев</a>
+                        <div class="seller__inner">
+                            <div id="rateYo" data-rateyo-rating="4"></div>
+
+                            <a class="seller__review" href="#"><span>5</span> отзывов</a>
+                        </div>
+                        <span class="seller__status">Частное лицо</span>
+                        <!--не нравится мне эта структура-->
+                    </div>
+                    <button class="seller__button seller__button--tel" type="button">
+                        Показать телефон
+                    </button>
+                    <button class="seller__button seller__button--email" type="button">Написать сообщение
+                    </button>
+                </div>
+
+                <div class="aside">
+                    <div class="advertising">
+                        <img class="advertising__img" src="images/advertising/1.jpg" alt="реклама курс по рекламе в instagram. fb, vk,mt и tiktok">
+                        <img class="advertising__img advertising-two" src="images/advertising/2.jpg" alt="реклама карманный проектор atom evolution">
+                    </div>
+                    <div class="nav-bar">
+                        <div class="nav-bar__info">
+                            <span>
+                                © ООО «Абито», 2011–2021
+                            </span>
+                            <span>
+                                <a class="nav-bar__link  nav-bar__link--decoration" href="#">
+                                    Политика конфиденциальности
+                                </a>
+                            </span>
+                            <span>
+                                <a class="nav-bar__link nav-bar__link--decoration" href="#">
+                                    Обработка данных
+                                </a>
+                            </span>
+                        </div>
+                        <ul class="nav-bar__links">
+                            <li class="nav-bar__item">
+                                <a class="nav-bar__link" href="#">
+                                    Реклама на сайте
+                                </a>
+                            </li>
+                            <li class="nav-bar__item">
+                                <a class=" nav-bar__link" href="#">
+                                    Вакансии
+                                </a>
+                            </li>
+                            <li class="nav-bar__item ">
+                                <a class="nav-bar__link" href="#">
+                                    Помощь
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
